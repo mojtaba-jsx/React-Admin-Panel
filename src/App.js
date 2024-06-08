@@ -11,7 +11,7 @@ function App() {
     <>
       <TopBar />
       <div className="container">
-        <SideBar/>
+        <SideBar />
         {router}
       </div>
     </>

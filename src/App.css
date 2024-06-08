@@ -5,7 +5,7 @@
 }
 .container {
   display: flex;
-  margin-top: 7rem;
+  /* margin-top: 7rem; */
 }
 
 .link {

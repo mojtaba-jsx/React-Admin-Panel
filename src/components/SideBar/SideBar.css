@@ -1,59 +1,58 @@
-
 @font-face {
-    font-family: "Cantarell-bold";
-    src: url("../../../public/fonts/Cantarell-Bold.ttf");
-  }
-  @font-face {
-    font-family: "Cantarell-regular";
-    src: url("../../../public/fonts/Cantarell-Regular.ttf");
-  }
-
-.sidebar{
-    width: 20rem;
-    flex: 1;
-    height: calc(100vh - 50px);
-    background-color: rgb(251, 251, 255);
-    position: fixed;
-   
+  font-family: "Cantarell-bold";
+  src: url("../../../public/fonts/Cantarell-Bold.ttf");
+}
+@font-face {
+  font-family: "Cantarell-regular";
+  src: url("../../../public/fonts/Cantarell-Regular.ttf");
 }
 
-.sidebar__wrapper{
-    padding: 20px;
-    color: #555;
-}
-.sidebar-title{
-    font-family: 'Cantarell-bold', Courier, monospace;
+.sidebar {
+  flex: 1;
+  height: calc(100vh - 50px);
+  background-color: rgb(251, 251, 255);
+  position:sticky;
+
 }
 
-.sidebar__menu{
-    margin-bottom: 10px;
+.sidebar__wrapper {
+  padding: 20px;
+  color: #555;
+}
+.sidebar-title {
+  font-family: "Cantarell-bold", Courier, monospace;
 }
 
-.sidebar__list{
-    font-size: 13px;
-    color: rgb(187, 186, 186);
+.sidebar__menu {
+  margin-bottom: 10px;
 }
 
-.sidebar__list{
-    list-style: none;
-    padding: 5px;
+.sidebar__list {
+  font-size: 13px;
+  color: rgb(187, 186, 186);
 }
 
-.sidebar__list-item{
-    padding: 5px;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    border-radius: 10px;
-    font-family: 'Cantarell-regular', Courier, monospace;
-    color: #555;
+.sidebar__list {
+  list-style: none;
+  padding: 5px;
 }
 
-.sidebar__list-item.active,.sidebar__list-item:hover{
-    background-color: rgb(240, 240, 255);
+.sidebar__list-item {
+  padding: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  font-family: "Cantarell-regular", Courier, monospace;
+  color: #555;
 }
 
-.sidebar-icon{
-    margin-right: 5px;
-    font-size: 20px;
+.sidebar__list-item.active,
+.sidebar__list-item:hover {
+  background-color: rgb(240, 240, 255);
+}
+
+.sidebar-icon {
+  margin-right: 5px;
+  font-size: 20px;
 }
