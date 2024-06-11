@@ -17,6 +17,7 @@ function Features() {
 
         <span className="feature-sub">Compared To Last Month</span>
       </div>
+      
       <div className="features-item">
         <span className="feature-title">Sales</span>
         <div className="feature-container">
@@ -29,6 +30,7 @@ function Features() {
 
         <span className="feature-sub">Compared To Last Month</span>
       </div>
+
       <div className="features-item">
         <span className="feature-title">Cost</span>
         <div className="feature-container">

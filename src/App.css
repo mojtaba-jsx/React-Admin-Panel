@@ -11,3 +11,11 @@
 .link {
   text-decoration: none;
 }
+
+
+.router{
+  width: 80%;
+}
+.sidebar{
+  width: 20%;
+}
