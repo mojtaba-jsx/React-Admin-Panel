@@ -18,17 +18,13 @@ function WidgetSm() {
         {transActions.map((transAction) => (
           <tr className="WidgetLg-tr">
             <td className="WidgetLg-user">
-              <img
-                src={transAction.img}
-                alt="user"
-                className="WidgetLg-img"
-              />
+              <img src={transAction.img} alt="user" className="WidgetLg-img" />
               <span className="WidgetLg-name">{transAction.customer}</span>
             </td>
             <td className="WidgetLg-date">{transAction.date}</td>
             <td className="WidgetLg-amount">${transAction.amount}</td>
             <td className="WidgetLg-status">
-              <Button type={transAction.status}/>
+              <Button type={transAction.status} />
             </td>
           </tr>
         ))}
