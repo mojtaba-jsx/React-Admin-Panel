@@ -147,4 +147,31 @@ let userRows = [
   },
 ]
 
-export { xAxisData, newMembers, transActions ,userRows};
+let products =[
+  {
+    id:1,
+    title:'asus',
+    avatar:'./images/admin.png',
+    price:'890'
+  },
+  {
+    id:2,
+    title:'asus',
+    avatar:'./images/admin.png',
+    price:'890'
+  },
+  {
+    id:3,
+    title:'asus',
+    avatar:'./images/admin.png',
+    price:'890'
+  },
+  {
+    id:4,
+    title:'asus',
+    avatar:'./images/admin.png',
+    price:'890'
+  },
+]
+
+export { xAxisData, newMembers, transActions ,userRows,products};
